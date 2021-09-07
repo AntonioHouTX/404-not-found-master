@@ -4,36 +4,61 @@
 }
 
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: "Space Mono", monospace;
+  
 }
 
-ul {
-  padding-left: 24px;
+header {
+  font-family: "Inconsolata", monospace;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 25px;
+  letter-spacing: -0.08em;
+  text-transform: uppercase;
+  color: #333;
+  position: absolute;
+  left: 77px;
+  top: 40px;
 }
 
-li {
-  margin-bottom: 8px;
+main {
+  display: flex;
+  flex-direction: row;
 }
 
-.welcome {
-  max-width: 800px;
-  margin: 0 auto;
+.scarecrow {
+  background-image: url("Scarecrow.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  left: 77px;
+  right: 57.21%;
+  top: 265px;
+  bottom: 34.03%;
+  width: 539.22px;
+  height: 447.43px;
+  border: 1px solid;
 }
 
-.welcome-text {
-  margin-top: 30vh;
-  font-weight: 500;
+.right {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid;
 }
 
-.welcome-text p {
-  font-size: 1rem;
-  font-weight: 400;
+.badnews {
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 94.78px;
+  letter: spacing -3.5%;
 }
 
-.welcome-text h1 {
-  font-size: 1.5rem;
-}
-
-.welcome-text a {
-  color: #f7542e;
+button {
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: -0.035em;
+  text-transform: uppercase;
+  color: white;
+  background-color: #333;
 }
